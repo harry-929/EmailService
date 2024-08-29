@@ -31,7 +31,7 @@ public class EmailConsumer {
             Authenticator authenticator = new Authenticator() {
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("harry333b4u@gmail.com", "qrekqyfosadntusm");
+                    return new PasswordAuthentication("harry333b4u@gmail.com", "#######");
                 }
             };
             Session session = Session.getInstance(prop, authenticator);
